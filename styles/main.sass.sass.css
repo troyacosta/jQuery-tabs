@@ -1,0 +1,38 @@
+.tabs {
+  height: 2em;
+  width: 6em;
+  display: inline-block;
+  border: .1em solid black;
+  border-bottom: none;
+  text-align: center;
+  padding-top: 1em;
+  margin-top: 1em; }
+
+#redTab {
+  color: red; }
+  #redTab:hover {
+    background-color: red;
+    color: white; }
+
+#greenTab {
+  color: green; }
+  #greenTab:hover {
+    background-color: green;
+    color: white; }
+
+#blueTab {
+  color: blue; }
+  #blueTab:hover {
+    background-color: blue;
+    color: white; }
+
+.text {
+  border: .1em solid black;
+  height: 30em;
+  padding: 1em; }
+
+#greenText {
+  display: none; }
+
+#blueText {
+  display: none; }
