@@ -8,17 +8,17 @@ var greenText = $('#greenText');
 var blueText = $('#blueText');
 
 redTab.on('click', function() {
-	redText.show();
-	greenText.hide();
-	blueText.hide();
+	redText.show(3000);
+	greenText.hide(3000);
+	blueText.hide(3000);
 });
 greenTab.on('click', function() {
-	greenText.show();
-	redText.hide();
-	blueText.hide();
+	greenText.show(3000);
+	redText.hide(3000);
+	blueText.hide(3000);
 });
 blueTab.on('click', function() {
-	blueText.show();
-	redText.hide();
-	greenText.hide();
+	blueText.show(3000);
+	redText.hide(3000);
+	greenText.hide(3000);
 });
